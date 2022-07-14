@@ -1,0 +1,5 @@
+No need to know DB, any Developer can work with API using these method.
+Add         Insert      POST
+Read        Select      GET
+Update      Update      PUT
+Delete      Delete      DELETE

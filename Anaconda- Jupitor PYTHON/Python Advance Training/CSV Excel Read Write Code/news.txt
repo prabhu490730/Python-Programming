@@ -1,0 +1,58 @@
+Overview
+
+The American Public Power Association eReliability Tracker
+is an award-winning Pyramid web application that helps electric
+utilities track performance metrics. As part of their subscription
+benefits, utilities receive a Reliability Benchmarking Report that is
+custom tailored to each utility using eReliability Tracker data.
+In this case study, we show how the American Public Power Association
+used Python + Markdown + CSS + JupyterLab + CrossCompute to transform
+a three to six month labor intensive process into a highly flexible
+automated PDF report that can leverage the full analytical power of
+Python. The outcome is that over five hundred utilities can now
+receive valuable reliability metrics more frequently to improve
+their services. The eReliability Tracker Team uses the time saved
+to innovate new analytics that help utilities deliver power to their
+communities.
+
+Challenge
+
+The Reliability Benchmarking Report was originally developed in
+Microsoft Access and had been faithfully and successfully delivered
+for many years to eReliability Tracker subscribers. However,
+as the number of subscriptions multiplied, the semi-manual click
+intensive process to generate a custom report for each utility
+became increasingly arduous. Changes in the underlying data could
+trigger a cascade of tedious updates to the tables and charts in
+each utility's report and significantly delay the iterative
+inter-departmental review process.
+
+Solution
+
+In 2021, an analyst in the APPA Office of Data Analytics decided
+to recreate the eReliability Tracker Benchmarking Report using Python.
+Within the next two months, she was able to automate all ten sections
+of the report in JupyterLab using the CrossCompute Report Automation
+Framework. She used numpy and pandas to compute the various
+statistics and matplotlib and seaborn to generate the plots.
+To style the report, the analyst used standard Markdown + CSS.
+
+Outcome
+
+For every change in the underlying dataset or downstream computation,
+the analyst is now able to regenerate custom PDF reports for all 500
+utilities in about an hour, which means she can iterate and innovate
+faster.
+Subsequent iterations of the report can take advantage of the rich
+library of free and open source computational and visualization
+packages available in Python.
+All ten sections of the report are also deployed internally as web-based
+CrossCompute tools so that non-technical users can drag and drop
+new data and regenerate the report's tables and charts without
+touching code.
+
+Acknowledgments
+
+Thank you to the American Public Power Association, U.S. Department
+of Energy, Python Software Foundation, Tampa Bay Innovation Center
+and CrossCompute for making this work possible.
